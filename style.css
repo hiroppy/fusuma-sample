@@ -1,3 +1,5 @@
+@import "fusuma/src/frontend/assets/style/mixins";
+
 :root {
   --color-gray: #b7b8b7;
 }
@@ -16,9 +18,9 @@
   font-size: 3rem;
 }
 
-/* .tc39 {
+.tc39 {
   @mixin icon './images/tc39.png';
-} */
+}
 
 .timeline {
   border-left: 2px solid #888;
