@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/hiroppy/fusuma-sample#readme",
   "devDependencies": {
-    "fusuma": "0.0.7"
+    "fusuma": "^0.1.0"
+  },
+  "dependencies": {
+    "bespoke-theme-voltaire": "^1.0.1"
   }
 }

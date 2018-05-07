@@ -2,11 +2,11 @@ meta:
   url: https://slides.hiroppy.me
   name: a sample for fusuma
   author: Yuta Hiroto
-  description: Sample 
+  description: Sample
   thumbnail: https://avatars0.githubusercontent.com/u/3367801?s=400&v=4
   siteName: slides.hiroppy.me
 slide:
-  theme: js
+  theme: voltaire
 extends:
   js:
   css: style.css
