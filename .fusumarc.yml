@@ -5,8 +5,11 @@ meta:
   description: Sample
   thumbnail: https://avatars0.githubusercontent.com/u/3367801?s=400&v=4
   siteName: slides.hiroppy.me
+  sns:
+    - twitter
+    - hatena
 slide:
-  theme: voltaire
+  theme: js
 extends:
   js:
   css: style.css
