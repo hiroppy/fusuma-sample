@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "fusuma start",
     "build": "NODE_ENV=production fusuma build",
     "deploy": "npm run build && fusuma deploy",
-    "pdf": "fusuma pdf -i https://hiroppy.github.io/fusuma-sample/"
+    "pdf": "fusuma pdf -i https://hiroppy.github.io/fusuma-sample -o slide.pdf"
   },
   "repository": {
     "type": "git",
