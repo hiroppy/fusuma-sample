@@ -7,7 +7,7 @@
     "start": "fusuma start",
     "build": "NODE_ENV=production fusuma build",
     "deploy": "npm run build && fusuma deploy",
-    "pdf": "fusuma pdf -i https://hiroppy.github.io/fusuma-sample -o slide.pdf"
+    "pdf": "fusuma pdf -i dist"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/hiroppy/fusuma-sample#readme",
   "devDependencies": {
-    "fusuma": "^0.1.4"
+    "fusuma": "^0.2.0"
   },
   "dependencies": {
     "bespoke-theme-voltaire": "^1.0.1"
