@@ -1,4 +1,7 @@
-# Sample for Fusuma
+# A Sample for Fusuma
+
+This demo is an introduction slide.
+
 **demo** https://hiroppy.github.io/fusuma-sample/
 
 ## What's Fusuma?
@@ -21,9 +24,4 @@ see package.json
 - start
 - build
 - deploy
-
-## Feature
-- SNS
-- Show index
-- Presenter Mode
-- Full Screen
+- pdf

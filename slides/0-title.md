@@ -1,9 +1,7 @@
-<!-- background: hyper-drive -->
+<!-- background: title -->
 
-# the present and future of JavaScript
+# About Fusuma
 
-2017/10/08
+<br />
 
-<a class="ref-link" target="_blank" href="https://github.com/hiroppy/slides">
-  https://github.com/hiroppy/slides
-</a>
+https://github.com/hiroppy/fusuma
