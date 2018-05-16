@@ -138,7 +138,7 @@ pre[class*="language-"] {
 .token.entity {
 	cursor: help;
 }
-@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans);
+
 .page-loader {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -259,94 +259,6 @@ pre[class*="language-"] {
   content: 'B!';
   font-family: Verdana;
   font-weight: bold;
-}.profile > .profile-avatar {
-  border-radius: 50%;
-  height: 150px;
-  margin: 20px 0;
-  width: 150px;
-}.profile > .profile-name {
-  margin: 0;
-}.profile > .profile-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 20px 0;
-  text-align: left;
-}.sns-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center
-}.sns-list > a {
-  border: none;
-}.bespoke-backdrop.main {
-  background: #3498db;
-}.bespoke-backdrop.profile {
-  background: #3498db;
-}.bespoke-backdrop.js {
-  background: #f5da55;
-}.bespoke-backdrop.node {
-  background: #43853d;
-}.bespoke-backdrop.black {
-  background: #222;
-}.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex
-}.card > .card-text {
-  border-left: 3px solid #777;
-  padding-left: 20px;
-  position: relative;
-  text-align: left;
-}.card > .card-text > .title {
-  border: none;
-  color: #3498db;
-  display: block;
-  font-size: 27.2px;
-  font-size: 1.7rem;
-  text-decoration: none;
-}.card > .card-text > .description {
-  font-size: 19.2px;
-  font-size: 1.2rem;
-}.card > .card-text > a {
-  bottom: 0;
-  display: block;
-  font-size: 16px;
-  font-size: 1rem;
-  position: absolute;
-}.card > img {
-  height: 100px;
-  padding: 0 20px;
-  width: 100px;
-}.list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 50px
-}.list > ul {
-  list-style: none;
-  margin: 0 50px;li {
-      padding: 0;
-  }
-}.left-box {
-  text-align: left;
-}.ref-link {
-  bottom: 10px;
-  font-size: 16px;
-  font-size: 1rem;
-  position: fixed;
-  right: 20px;
-}.common-table {
-  margin: 10px;
-  text-align: left
-}.common-table > thead {
-  border-bottom: 2px solid #3498db;
-}.common-table th {
-  padding: 5px 10px;
-}.common-table td {
-  padding: 5px 10px;
 }
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -2681,122 +2593,51 @@ pre[class*="language-"] {
   overflow: visible;
   clip: auto;
 }
-/* @define-mixin */
-/* stylelint-disable */
-/* @define-mixin */
-/* stylelint-disable */
+h1 {
+  color: #3498db;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
 @font-face {
   font-family: Stratum;
   src: url(06a6ac1709970857f419dc78aca05353.ttf);
 }
+
 .bespoke-parent {
   /* stylelint-disable */
   font-family: Stratum, 'Helvetica Neue For Number', 'Hiragino Kaku Gothic ProN', '\30E1\30A4\30EA\30AA', Arial,
     sans-serif;
   /* stylelint-enable */
 }
-.bespoke-backdrop {
-  background: #b7b8b7;
-}
+
 .bespoke-backdrop.title {
-  background: #43853d;
+  background: #464646;
 }
+
 .bespoke-backdrop.end {
-  background: #f5da55;
+  background: #3498db;
 }
-.ref-link:hover {
-  color: #f5da55;
-}
-h2 {
-  color: #f5da55;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 800;
-  letter-spacing: 4px;
-  letter-spacing: 0.25rem;
-  text-transform: none;
-}
-h3 {
-  font-family: inherit;
-  font-style: normal;
-}
-strong {
+
+#the-end {
   color: #ff874d;
-  font-size: 33.6px;
-  font-size: 2.1rem;
-  font-weight: bold;
 }
-img {
-  width: 90%;
+
+.bespoke-backdrop.section-title {
+  background: #3498db;
 }
-/* @define-mixin */
-/* stylelint-disable */
-/* @define-mixin */
-/* stylelint-disable */
-.bespoke-backdrop {
-  background: #b7b8b7;
+
+.section-title h2 {
+  color: #ff874d;
+  margin-bottom: 0;
 }
-.bespoke-backdrop.hyper-drive {
-  background: url(a1c606395f23cb23a43aa4e0600f39b1.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.big {
-  font-size: 48px;
-  font-size: 3rem;
-}
-.tc39 {
-  background: url(ee5efce16faa8caf5209d24ee71b0261.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 120px;
-  text-align: center;
-  width: 120px;
-}
-.timeline {
-  border-left: 2px solid #888;
-  padding: 10px;
-  text-align: left
-}
-.timeline thead {
-  border-bottom: 1px solid #888;
-}
-.timeline th {
-  padding: 5px 20px;
-}
-.stages-list {
-  font-size: 14.4px;
-  font-size: 0.9rem;
-  text-align: left
-}
-.stages-list th {
-  padding: 10px;
-}
-.stages-list th:first-child {
-  padding-left: 50px;
-  width: 100px;
-}
-.stages-list strong {
-  font-size: 27.2px;
-  font-size: 1.7rem;
-}
-.champion {
-  font-size: 9.6px;
-  font-size: 0.6rem;
-}
-.proposal-updates-table {
-  font-size: 12.8px;
-  font-size: 0.8rem
-}
-.proposal-updates-table tbody th {
-  padding: 2px 10px;
-}
-.node-fest {
-  width: 70%;
-}
-.required {
-  /* color: var(--color-js); */
-  margin-right: 5px;
+
+.hand {
+  bottom: 20px;
+  left: 100px;
+  position: fixed;
 }
 .host-container {
   background: #222;
